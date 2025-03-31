@@ -134,7 +134,7 @@ return [
     'url_generation_strategy' => UrlGeneratorInterface::ABS_PATH,
 
     'serializer' => [
-        'hydra_prefix' => false,
+        'hydra_prefix' => true,
         // 'datetime_format' => \DateTimeInterface::RFC3339
     ],
 
